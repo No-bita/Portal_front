@@ -1,0 +1,19 @@
+.subject-nav {
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .nav-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .nav-buttons-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
