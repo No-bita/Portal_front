@@ -29,8 +29,8 @@ const Register = () => {
       return false;
     }
 
-    if (password.length < 8) {
-      setError("Password must be at least 8 characters");
+    if (password.length < 6) {
+      setError("Password must be at least 6 characters");
       return false;
     }
 
@@ -134,10 +134,10 @@ const Register = () => {
               disabled={isLoading}
               className="form-input"
               autoComplete="new-password"
-              minLength="8"
+              minLength="6"
             />
             <small id="passwordHelp" className="input-hint">
-              Minimum 8 characters
+              Minimum 6 characters
             </small>
           </div>
 
